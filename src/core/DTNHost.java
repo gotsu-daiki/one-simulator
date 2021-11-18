@@ -39,6 +39,7 @@ public class DTNHost implements Comparable<DTNHost> {
 	public Coord Beforedestination;//最後に通った分岐点
  	public List<Coord> DisasterPoint2=new ArrayList<Coord>() {{add(LastMapNode);}};//ホストが持っている被災地の位置情報
 	public Coord DisasterPoint;
+	
 	public Coord NecessaryOfBack=null; //前の分岐点に戻る必要があるかどうか
 	public MapNode AvoidanceNode;//避けるべきマップノード
 	public boolean DateSendPermisstion=true;
