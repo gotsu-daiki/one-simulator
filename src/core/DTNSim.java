@@ -15,6 +15,7 @@ import ui.DTNSimTextUI;
 /**
  * Simulator's main class 
  */
+
 public class DTNSim {
 	/** If this option ({@value}) is given to program, batch mode and
 	 * Text UI are used*/
